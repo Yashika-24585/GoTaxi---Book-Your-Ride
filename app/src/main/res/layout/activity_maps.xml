@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relayoutmap"
+     >
+
+
+    <FrameLayout
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        tools:context=".MapsActivity">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/map"
+        android:layout_marginBottom="-56dp"
+        android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_baseline_location_on_24"></ImageView>
+
+                <EditText
+                    android:id="@+id/location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="50dp"
+                    android:backgroundTint="@color/white"
+                    android:hint="Current Location"
+                    android:text=""
+                    android:textSize="18dp"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:singleLine="true"
+                    android:imeOptions="actionDone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dots"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/linear2"
+        android:layout_marginBottom="-30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_baseline_circle_24"></ImageView>
+
+        <ImageView
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_baseline_circle_24"></ImageView>
+
+        <ImageView
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_baseline_circle_24"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/dots"
+        android:layout_marginBottom="-25dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dots">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/ic_baseline_location_on_24"></ImageView>
+
+                        <EditText
+                            android:id="@+id/text_dest"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="50dp"
+                            android:backgroundTint="@color/white"
+                            android:hint="Your Destination"
+                            android:text=""
+                            android:textSize="18dp"
+                            tools:ignore="TouchTargetSizeCheck"
+                            android:singleLine="true"
+                            android:imeOptions="actionDone"/>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/bookride"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linear3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-61dp"
+        android:background="@drawable/round_button"
+        android:text="Book Your Ride"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear3"
+        android:textAllCaps="false"/>
+
+
+
+
+</RelativeLayout>

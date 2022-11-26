@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "973815055776",
+    "firebase_url": "https://gotaxi-8889c-default-rtdb.firebaseio.com",
+    "project_id": "gotaxi-8889c",
+    "storage_bucket": "gotaxi-8889c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973815055776:android:8464f28dcdfa0e6e1ed0c5",
+        "android_client_info": {
+          "package_name": "com.example.gotaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973815055776-p5us3ru60b38kvkcg62c4ibs31bhrhi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXgBSSgpLlbdR_WtQgpYU_3oOBZtaCyAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973815055776-p5us3ru60b38kvkcg62c4ibs31bhrhi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "877401450312",
+    "project_id": "gotaxiapp-3bc68",
+    "storage_bucket": "gotaxiapp-3bc68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877401450312:android:6ee6504bb70daf8315f57d",
+        "android_client_info": {
+          "package_name": "com.example.gotaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877401450312-8edkf0s07uogb37r7vfaiiunaqspqc17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gotaxi",
+            "certificate_hash": "25f357544cb1708a334baab8d7861e8c5e39ab0a"
+          }
+        },
+        {
+          "client_id": "877401450312-ijfbddscknn7gkt1q13uae1p80stiits.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmUJ8BPa7Fd9pktXamG41797qX1itKhQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877401450312-ijfbddscknn7gkt1q13uae1p80stiits.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

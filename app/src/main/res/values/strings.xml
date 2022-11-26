@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GoTaxi</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="request_ride">Request A Ride</string>
+    <string name="title_activity_request_ridemap">RequestRidemap</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_booknow">Booknow</string>
+    <string name="title_activity_booking">booking</string>
+    <string name="heading">Choose a ride, or swipe up for more</string>
+    <string name="car1"><font size="16">Book Any</font>\n\<font color="grey" size="11">Get Nearest Car</font></string>
+    <string name="car2"><font size="16">Prime Sedan</font>\n\<font color="grey" size="11">Spacious Sedan, Top Drivers</font></string>
+    <string name="car3"><font size="16">Prime SUV</font>\n\<font color="grey" size="11"> Luxury Comfort, more Space</font></string>
+    <string name="car4"><font size="16">Outstation Ride</font>\n\<font color="grey" size="11">Toll Taxes excluded</font></string>
+    <string name="scooty"><font size="16">Scooty Ride</font>\n\<font color="grey" size="11">Get Nearest Ride</font></string>
+    <string name="auto"><font size="16">Book Auto</font>\n\<font color="grey" size="11">Find Nearest One</font></string>
+    <string name="promo1"><font color="white" size="18">Get 10% on First Ride\n</font> <font color="#d2d2d2" size="15"> valid till 05/12/22</font></string>
+    <string name="promo2"><font color="white" size="18">Get Rs.50 on Fair Ride\n</font> <font color="#d2d2d2" size="15"> valid till 15/12/22</font></string>
+    <string name="promo3"><font color="white" size="18">Get Rs.100 on Next Two\n</font> <font color="#d2d2d2" size="15"> valid till 20/01/23</font></string>
+    <string name="promo4"><font color="white" size="18">Get 20% Always (For Pro) \n</font> <font color="#d2d2d2" size="15"> valid till 15/01/23</font></string>
+    <string name="coupon">Coupon amount will automatically adjust once you will complete your ride.</string>
+    <string name="coupon1"> <font color="#f7f8b9">Note: </font> Please remember to cross-check if the amount is adjusted or not.</string>
+    <string name="alert_box"><font color="#f7f8b9" size="18">Please wait while we are \n</font> <font color="#f5f5f5" size="15">Looking For  Driver</font></string>
+    <string name="coupon2">  Please Confirm Your Pickup We are Ready For You.</string>
+    <string name="driver_name"><font color="yellow" size="20">Jhon Doe \n </font><font color="#FF9529" size="14">***** </font>  <font color="yellow" size="14">Rating</font></string>
+</resources>

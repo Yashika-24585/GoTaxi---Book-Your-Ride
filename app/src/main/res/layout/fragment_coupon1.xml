@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".coupon1">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/scrollview"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+       >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/constraint"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/constraint"
+            android:id="@+id/linear"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_margin="4dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Promo Code"
+                android:textSize="18dp"
+                android:textColor="@color/yellow"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_local_offer_24"
+                android:rotation="70"
+                android:layout_marginLeft="10dp"
+             ></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linear"
+            android:id="@+id/promoapply"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+
+            <EditText
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:hint="Enter promo code"
+                android:textSize="17dp"
+                android:textColor="@color/grey"
+                android:layout_marginRight="30dp"
+                android:textColorHint="@color/grey"
+                android:paddingLeft="10dp"
+                android:background="@drawable/border"
+                ></EditText>
+
+            <Button
+                android:id="@+id/apply"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/round_button"
+                android:text="Apply"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/promoapply"
+            android:id="@+id/linear1"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/ic_baseline_local_offer_24"
+                android:rotation="20"
+                android:layout_gravity="center_vertical"
+               app:tint="@color/yellow"
+                ></ImageView>
+
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="3dp"
+                android:background="#00000000"
+                android:text="@string/promo1"
+                android:gravity="left"
+                android:textAllCaps="false"
+                android:paddingLeft="20dp"
+               >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linear1"
+            android:id="@+id/linear2"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/ic_baseline_local_offer_24"
+                android:rotation="20"
+                android:layout_gravity="center_vertical"
+                app:tint="@color/yellow"
+                ></ImageView>
+
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="3dp"
+                android:background="#00000000"
+                android:text="@string/promo2"
+                android:gravity="left"
+                android:textAllCaps="false"
+                android:paddingLeft="20dp"
+               >
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linear2"
+            android:id="@+id/linear3"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/ic_baseline_local_offer_24"
+                android:rotation="20"
+                android:layout_gravity="center_vertical"
+                app:tint="@color/yellow"
+                ></ImageView>
+
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="3dp"
+                android:background="#00000000"
+                android:text="@string/promo3"
+                android:gravity="left"
+                android:textAllCaps="false"
+                android:paddingLeft="20dp"
+                >
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linear3"
+            android:id="@+id/linear4"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/ic_baseline_local_offer_24"
+                android:rotation="20"
+                android:layout_gravity="center_vertical"
+                app:tint="@color/yellow"
+                ></ImageView>
+
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="3dp"
+                android:background="#00000000"
+                android:text="@string/promo4"
+                android:gravity="left"
+                android:textAllCaps="false"
+                android:paddingLeft="20dp"
+                >
+            </Button>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/usecode"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="Use Code"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linear4"
+            android:layout_marginTop="5dp"
+
+
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>
